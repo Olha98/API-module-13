@@ -19,7 +19,7 @@ body {
 
 }
 
-.ul {
+ul {
   padding: 0px;
 }
 
@@ -65,6 +65,8 @@ body {
   height: 200px;
 }
 
-.is-hidden{
+.button-spinner {}
+
+.is-hidden {
   display: none;
 }

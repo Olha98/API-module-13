@@ -8,27 +8,28 @@ import {
   updateAxiosMarkup
 } from './js/updateAxiosMarkup'
 
+import {
+  buttonShowMore
+} from './js/buttonShowMore'
+
+
 let search = '';
 refs.formSearch.addEventListener('submit', (e) => {
   e.preventDefault();
+
   const currentForm = e.currentTarget;
   search = currentForm.elements.query.value;
-
-
   refs.gallery.innerHTML = '';
   // form.reset();
   services.getPage();
-
+  buttonShowMore.disable();
+  buttonShowMore.buttonShow();
 
   services.axoisImage(search)
     .then(data => {
-      console.log(data)
       updateAxiosMarkup(data);
-
+      buttonShowMore.show();
     })
-
-  refs.ShowMore.classList.remove('is-hidden');
-
 });
 
 refs.ShowMore.addEventListener('click', () => {
