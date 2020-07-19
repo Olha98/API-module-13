@@ -57,6 +57,7 @@
     "core-js": "^3.6.4",
     "debounce": "^1.2.0",
     "handlebars": "^4.7.6",
+    "infinite-scroll": "^3.0.6",
     "lodash.debounce": "^4.0.8",
     "material-design-icons": "^3.0.1",
     "pnotify": "^4.0.1"
