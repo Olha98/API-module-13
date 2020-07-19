@@ -3,4 +3,5 @@ export const refs = {
   buttonSearch: document.querySelector('.search-button'),
   inputSearch: document.querySelector('.search-input'),
   gallery: document.querySelector('.gallery'),
+  ShowMore: document.querySelector('.is-hidden'),
 }

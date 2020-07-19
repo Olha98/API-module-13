@@ -8,14 +8,32 @@ import {
   updateAxiosMarkup
 } from './js/updateAxiosMarkup'
 
+let search = '';
 refs.formSearch.addEventListener('submit', (e) => {
   e.preventDefault();
   const currentForm = e.currentTarget;
-  const inputVelue = currentForm.elements.query.value;
-  console.log(inputVelue)
-  refs.inputSearch.innerHTML = "";
+  search = currentForm.elements.query.value;
 
-  services.axoisImage(inputVelue).then(data => updateAxiosMarkup(data.data.hits))
-    .catch(error => console.log(error));
+
+  refs.gallery.innerHTML = '';
+  // form.reset();
+  services.getPage();
+
+
+  services.axoisImage(search)
+    .then(data => {
+      console.log(data)
+      updateAxiosMarkup(data);
+
+    })
+
+  refs.ShowMore.classList.remove('is-hidden');
 
 });
+
+refs.ShowMore.addEventListener('click', () => {
+  services.axoisImage(search).then(data => {
+    updateAxiosMarkup(data);
+  })
+
+})
