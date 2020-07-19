@@ -5,5 +5,6 @@ export const refs = {
   gallery: document.querySelector('.gallery'),
   ShowMore: document.querySelector('.search-more-button'),
   textButton: document.querySelector('.text-button'),
-  spinner: document.querySelector('.spinner')
+  spinner: document.querySelector('.spinner'),
+  containerModal: document.querySelector('.container-modal'),
 }
