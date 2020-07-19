@@ -9,10 +9,10 @@ import {
 import {
   buttonShowMore
 } from './js/buttonShowMore'
-// import {basicLightbox} from './js/basicLightbox'
+import basiclightbox from './js/basicLightbox';
 import 'basiclightbox/dist/basicLightbox.min.css';
 import 'basiclightbox/dist/basicLightbox.min.js';
-import * as basicLightbox from 'basiclightbox'
+
 
 
 let search = '';
@@ -45,15 +45,6 @@ refs.ShowMore.addEventListener('click', () => {
 })
 
 
-refs.gallery.addEventListener('click', createModule)
-
-function createModule(e) {
-  if (e.target.nodeName === 'IMG') {
-    let largeImg = e.target.getAttribute("href");
-    console.log(largeImg)
-    const instance = basicLightbox.create(`<img src="${largeImg}" width="800" height="600">`)
-    instance.show()
-  }
-
-}
-
+refs.gallery.addEventListener('click', basiclightbox.createModule);
+window.addEventListener('keydown', basiclightbox.closeModal);
+document.addEventListener('click', basiclightbox.closeModal);

@@ -6,5 +6,5 @@ export const refs = {
   ShowMore: document.querySelector('.search-more-button'),
   textButton: document.querySelector('.text-button'),
   spinner: document.querySelector('.spinner'),
-  containerModal: document.querySelector('.container-modal'),
+  basiclightbox: document.querySelector('.basiclightbox'),
 }

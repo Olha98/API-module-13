@@ -96,10 +96,11 @@ ul {
   right: 1.8rem;
   width: 2em;
   height: 2em;
-  /* background: url('../images/icon-close.svg'); */
+  background-image: url('./images/50621.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: white;
+  z-index: 100;
+
 }
 
 .basicLightbox__placeholder {
