@@ -44,8 +44,6 @@ refs.formSearch.addEventListener('submit', (e) => {
         PNotify.error(`We didn't find. Please, choise other theme of image...`)
         return
       }
-
-
     })
 });
 
