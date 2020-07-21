@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://https://github.com/Olha98/API-module-13/issues"
   },
-  "homepage": "https://Olha98.github.io/API-module-13/build/index.html",
+  "homepage": "https://Olha98.github.io/API-module-13",
 
   "devDependencies": {
     "@babel/core": "^7.8.7",
