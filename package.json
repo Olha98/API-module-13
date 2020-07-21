@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Olha98/js-module-10.git"
+    "url": "git+https://github.com/Olha98/API-module-13.git"
   },
   "keywords": [],
   "author": "Olha Hrymchak <forwork1177@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://https://github.com/Olha98/js-module-10/issues"
+    "url": "https://https://github.com/Olha98/API-module-13/issues"
   },
-  "homepage": "https://github.com/Olha98/js-module-10/#readme",
+  "homepage": "https://Olha98.github.io/API-module-13",
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
