@@ -19,7 +19,8 @@
   "bugs": {
     "url": "https://https://github.com/Olha98/API-module-13/issues"
   },
-  "homepage": "https://Olha98.github.io/API-module-13",
+  "homepage": "https://Olha98.github.io/API-module-13/build/index.html",
+
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
