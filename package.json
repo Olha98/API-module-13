@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "animate.css": "^4.1.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "basiclightbox": "^5.0.3",
     "core-js": "^3.6.4",
     "debounce": "^1.2.0",
